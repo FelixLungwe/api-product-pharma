@@ -47,7 +47,7 @@ spring:
     name: Produit Management API
 
   datasource:
-    url: ${DB_URL}
+    url: jdbc:postgresql://dpg-d7hl9trbc2fs73dj4kn0-a:5432/pharma_produit_db
     username: ${DB_USER}
     password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
