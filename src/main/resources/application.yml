@@ -1,9 +1,9 @@
-#server:
+# server:
 #  port: 8000
 #  servlet:
 #    context-path: /api/v1
-#
-#spring:
+
+# spring:
 #  # PostgreSQL Configuration
 #  app:
 #    name: Produit Management API
@@ -18,7 +18,7 @@
 #      minimum-idle: 5
 #      idle-timeout: 300000
 #      pool-name: HikariPool-Produit
-#  
+ 
 #  # JPA Configuration
 #  jpa:
 #    database: POSTGRESQL
